@@ -350,3 +350,16 @@ input:checked+.slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+
+    section {
+        width: 25%;
+
+        ul {
+            list-style: none;
+        }
+    }
+}
